@@ -3,3 +3,9 @@ Movies App Project
 - It quickly demontrates:
 - - Views and URLs
   - Django Templates
+
+
+Setup Steps
+py -m venv env
+source env/Scripts/activate
+pip install django gunicorn
