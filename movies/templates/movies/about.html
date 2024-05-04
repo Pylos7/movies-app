@@ -1,0 +1,14 @@
+{% extends "movies/_base.html" %}
+
+<html>
+	{% block content %}
+		<h1>My Favorite Movies!</h1>
+		<ol><li>Fight Club</li>
+			<li>Ponyo</li>
+			<li>John Wick</li>
+			<li>The Irregular at Magic High School</li></ol>
+		{% load static %}
+		<img style="width:800px" src="{% static 'movies/ml101-6-step-ml-framework.png' %}" alt="6 Step Machine Learning Framework Picture">
+		
+	{% endblock %}
+</html>
